@@ -7,5 +7,7 @@ CREATE TABLE users (
     lastname TEXT NOT NULL,
     email TEXT NOT NULL UNIQUE,
     passwd TEXT NOT NULL,
-    username TEXT NOT NULL UNIQUE
+    username TEXT NOT NULL UNIQUE,
+    filename TEXT,
+    count INTEGER
 );
